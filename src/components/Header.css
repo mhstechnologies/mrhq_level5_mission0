@@ -14,8 +14,7 @@
 }
 
 .Header_Logo {
-  margin-top: 3%;
-  margin-bottom: 3%;
+  margin-left: 10%;
   width: 10%;
   border-radius: 50%;
 }
@@ -24,12 +23,4 @@
   margin-left: 2%;
   color: white;
   justify-items: center;
-}
-
-.Header_MenuItems {
-  width: auto;
-}
-
-.Header_Login {
-width: 5%;
 }

@@ -1,4 +1,5 @@
 import './Header.css';
+import NavBar from './NavBar';
 
 function Header() {
   return (
@@ -11,10 +12,7 @@ function Header() {
           alt='company_logo' />
         <h3 className="Header_Company">My Company</h3>
         </div>
-        <div className="Header_MenuItems">Menu 1</div>
-        <div className="Header_MenuItems">Menu 2</div>
-        <div className="Header_MenuItems">Menu 3</div>
-        <button className="Header_Login">Login</button>
+        <NavBar />
       </header>
     </>
   );
