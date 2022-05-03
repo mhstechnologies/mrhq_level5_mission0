@@ -10,6 +10,25 @@
       name="description"
       content="Web site created using create-react-app"
     />
+    <script>
+      window.watsonAssistantChatOptions = {
+        integrationID: "75186488-b10d-459c-bd97-b6398a308dc8", // The ID of this integration.
+        region: "au-syd", // The region your integration is hosted in.
+        serviceInstanceID: "c6e3fb45-31de-49fe-a3f8-76877474f11a", // The ID of your service instance.
+        onLoad: function (instance) {
+          instance.render();
+        },
+      };
+
+      setTimeout(function () {
+        const t = document.createElement("script");
+        t.src =
+          "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" +
+          (window.watsonAssistantChatOptions.clientVersion || "latest") +
+          "/WatsonAssistantChatEntry.js";
+        document.head.appendChild(t);
+      });
+    </script>
     <title>Mission 0</title>
   </head>
   <body>
